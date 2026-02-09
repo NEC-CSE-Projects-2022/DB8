@@ -1,3 +1,109 @@
+# 🚀 DB8 – A Lightweight Attention-Enhanced Deep Learning Model  
+## Based on MobileNetV2 for Lung Cancer Detection
+
+---
+
+## 👥 Team Information
+
+### Project Lead  
+**Akhil Duddi — 23475A0508**  
+🔗 LinkedIn: https://www.linkedin.com/in/akhilduddi  
+
+**Contribution:**
+- Complete end-to-end project implementation  
+- Dataset selection and preparation  
+- Image preprocessing and enhancement pipeline  
+- MobileNetV2 fine-tuning and optimization  
+- Attention mechanism integration  
+- Model training, validation, and evaluation  
+- Comparative analysis with multiple CNN architectures  
+- Result analysis, documentation, and GitHub setup  
+
+---
+
+### Team Members
+
+**Shaik Silar — 23475A0512**  
+🔗 LinkedIn: https://www.linkedin.com/in/silar-shaik-5b68552bb/  
+
+**Contribution:**
+- Literature survey assistance  
+- Dataset understanding and validation support  
+- Result verification and documentation support  
+
+**Paleti Rahul — 22471A05N6**  
+🔗 LinkedIn: https://www.linkedin.com/in/paleti-rahul/  
+
+**Contribution:**
+- Model testing assistance  
+- Presentation preparation  
+- Project report formatting  
+
+---
+
+## 📌 Abstract
+
+Lung cancer is one of the deadliest diseases worldwide due to its high mortality rate and frequent late-stage diagnosis. Early and accurate detection is essential to improve survival outcomes. Computed Tomography (CT) scans play a crucial role in lung cancer diagnosis; however, manual interpretation is time-consuming and prone to variability.
+
+This project presents a **lightweight attention-enhanced deep learning framework based on MobileNetV2** for lung cancer detection using CT scan images. Inspired by recent attention-based CNN architectures, the model incorporates an explicit attention mechanism to capture both spatial and channel-wise feature dependencies while maintaining low computational complexity through depthwise separable convolutions.
+
+The framework is trained and evaluated on a Kaggle CT scan dataset consisting of four classes: **adenocarcinoma, large cell carcinoma, squamous cell carcinoma, and normal lung tissue**. Image enhancement and preprocessing techniques such as resizing, white balancing, CLAHE, and normalization are applied to improve feature visibility and robustness. The proposed approach achieves a classification accuracy of **96%**, demonstrating its effectiveness for real-time and resource-constrained clinical applications.
+
+---
+
+## 📖 Reference Paper (Inspiration)
+
+**Lung-AttNet: An Attention Mechanism-Based CNN Architecture for Lung Cancer Detection With Federated Learning**  
+*Chamak Saha et al., IEEE Access, 2025*
+
+This project is inspired by the architectural concepts, attention mechanisms, and preprocessing strategies presented in the Lung-AttNet research paper, while adapting the implementation to a **MobileNetV2-based lightweight architecture** suitable for academic and practical deployment.
+
+---
+
+## ✨ Improvements and Adaptations
+
+- Lightweight MobileNetV2 backbone instead of heavier CNNs  
+- Reduced computational cost while maintaining high accuracy  
+- Simplified attention mechanism suitable for single-node training  
+- Strong preprocessing pipeline for CT scan enhancement  
+- Comparative evaluation against EfficientNetV2, DenseNet121, and ResNet50  
+- Designed for easy deployment and academic reproducibility  
+
+---
+
+## 🧠 About the Project
+
+### What the Project Does
+- Automatically classifies lung CT scan images into:
+  - Adenocarcinoma  
+  - Large Cell Carcinoma  
+  - Squamous Cell Carcinoma  
+  - Normal (Non-cancerous)
+
+### Why It Is Useful
+- Assists radiologists in early lung cancer diagnosis  
+- Reduces diagnostic time and human error  
+- Enables scalable computer-aided diagnosis  
+- Suitable for edge and low-resource environments  
+
+---
+
+## 🔄 System Workflow
+CT Scan Image
+↓
+Image Preprocessing
+↓
+Data Augmentation
+↓
+MobileNetV2 Feature Extractor
+↓
+Attention Mechanism
+↓
+Classifier (Softmax)
+↓
+Predicted Lung Cancer Class
+
+
 
 ---
 
