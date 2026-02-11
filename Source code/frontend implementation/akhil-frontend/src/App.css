@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bg-grid-slate-200\/50 {
+  background-image: linear-gradient(to right, rgb(226 232 240 / 0.5) 1px, transparent 1px),
+    linear-gradient(to bottom, rgb(226 232 240 / 0.5) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+.dark .bg-grid-slate-700\/25 {
+  background-image: linear-gradient(to right, rgb(51 65 85 / 0.25) 1px, transparent 1px),
+    linear-gradient(to bottom, rgb(51 65 85 / 0.25) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+.App {
+  min-height: 100vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lung Cancer Detection</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="main-flex">
+    <div class="upload-section">
+  <h1>Lung Cancer Detection</h1>
+      <p>Upload a CT scan image to predict.</p>
+      <div id="dropArea" class="drop-area">
+        <input type="file" id="fileInput" accept="image/*" hidden>
+        <label id="dropLabel">
+          <span>Drag & Drop Image Here</span>
+        </label>
+        <div id="preview"></div>
+      </div>
+      <button id="uploadBtn">Upload Image</button>
+      <button id="predictBtn">Predict</button>
+    </div>
+    <div class="result-section">
+      <h2>Result</h2>
+      <div id="result"></div>
+      <button id="homeBtn" class="home-btn">Go to Home Page</button>
+    </div>
+  </div>
+  <script src="/static/script.js"></script>
+</body>
+</html>
